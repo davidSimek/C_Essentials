@@ -12,7 +12,6 @@ C is a powerful language, but sometimes we wonder why some basic utilities aren'
 - [ ] Page allocator
 
 ### Makefile Templates
-- [ ] General-purpose (99% of use cases)
 - [ ] Linux-specific
 - [ ] Windows-specific
 - [ ] Cross-platform
