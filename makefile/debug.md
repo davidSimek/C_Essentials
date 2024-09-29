@@ -1,6 +1,4 @@
 # Debug
-flags to make debugging easier
-
 ## `-g<level>`
 Allows you to debug executable binary. Most usefull for debugging software like gdb. Largely affects execution speed.
 #### example

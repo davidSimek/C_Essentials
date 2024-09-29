@@ -1,6 +1,4 @@
 # Performance
-flags to use for higher performance
-
 ## `-O<level>`
 Optimizes size and execution time of your binary.
 #### example
