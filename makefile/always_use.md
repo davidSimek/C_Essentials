@@ -7,7 +7,7 @@ Forces you to follow standard, which might result in more stable release. It is 
 #### notation
 `-std=<version>` or `-ansi`
 #### example
-`-ansi`
-`-std=c99`
-`-std=gnu17`
-`-std=c23`
+- `-ansi`
+- `-std=c99`
+- `-std=gnu17`
+- `-std=c23`

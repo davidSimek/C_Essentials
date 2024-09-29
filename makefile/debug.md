@@ -7,10 +7,10 @@ Allows you to debug executable binary. Most usefull for debugging software like 
 #### notation
 `-g<level>`
 #### example
-`-g0` no debug info
-`-g1` minimal debug info
-`-g`  default debug info
-`-g3` maximal debug info
+- `-g0` no debug info
+- `-g1` minimal debug info
+- `-g`  default debug info
+- `-g3` maximal debug info
 
 *****
 
@@ -20,10 +20,10 @@ Affects build logs. Makes it easier to catch issues while building. I recommend 
 #### notation
 `-W<something>`
 #### example
-`-Werrors` treats warnings like errors
-`-Wpedantic` gives you strict warnings based on ISO C for your c version
-`-Wall` enables all warnings (those which are disabled on default)
-`-Wextra` enables extra warnings
+- `-Werrors` treats warnings like errors
+- `-Wpedantic` gives you strict warnings based on ISO C for your c version
+- `-Wall` enables all warnings (those which are disabled on default)
+- `-Wextra` enables extra warnings
 
 *****
 
@@ -33,8 +33,8 @@ Adds additional checks for functions like `memcpy`, `memset`, `strncpy` ...
 #### notation
 `-D_FORTIFY_SOURCE=<mode>`
 #### example
-`-D_FORTIFY_SOURCE=1` allow compile time checks
-`-D_FORTIFY_SOURCE=2` allow compile and runtime checks
+- `-D_FORTIFY_SOURCE=1` allow compile time checks
+- `-D_FORTIFY_SOURCE=2` allow compile and runtime checks
 
 *****
 
@@ -44,8 +44,8 @@ Finds even more problems gcc itself can't. Might require installing additional d
 #### notation
 `-fsanitize=<mode/subject>`
 #### example
-`-fsanitize=address` detects memory errors
-`-fsanitize=undefined` catches undefined behaviour
+- `-fsanitize=address` detects memory errors
+- `-fsanitize=undefined` catches undefined behaviour
 
 *****
 

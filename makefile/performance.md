@@ -7,10 +7,10 @@ Optimizes size and execution time of your binary.
 #### notation
 `-O<level>`
 #### example
-`-O0` no optimization
-`-O3` high level of optimization, mostly for speed
-`-Oz` optimizes for small size of binary, even for cost of execution time
-`-Og` optimzes in a way, that still lets you comfortably debug
+- `-O0` no optimization
+- `-O3` high level of optimization, mostly for speed
+- `-Oz` optimizes for small size of binary, even for cost of execution time
+- `-Og` optimzes in a way, that still lets you comfortably debug
 
 *****
 
@@ -28,15 +28,15 @@ Makes code use extensions like AVX to make code faster. Might make binary unusab
 #### notation
 `-march=<cpu-type>`
 #### example
-`-march=native` Uses extension supported by local cpu.
-`-march=<specific architecture>` This has very specific usecases and you probably don't need to care about this at all.
+- `-march=native` Uses extension supported by local cpu.
+- `-march=<specific architecture>` This has very specific usecases and you probably don't need to care about this at all.
 
 *****
 
 ### linking optimization
 #### why
 Helps with "dead code" reduction and linking in general.
-#### notation
+- #### notation
 `-flto` Has to be specified in all compilation steps.
 
 *****
