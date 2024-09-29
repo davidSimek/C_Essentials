@@ -2,7 +2,6 @@
 ## flags to make debugging easier
 
 ### debugging information
-#### why
 Allows you to debug executable binary. Most usefull for debugging software like gdb. Largely affects execution speed.
 #### notation
 `-g<level>`
@@ -15,7 +14,6 @@ Allows you to debug executable binary. Most usefull for debugging software like 
 *****
 
 ### warning flags
-#### why
 Affects build logs. Makes it easier to catch issues while building. I recommend using these on every single debug build.
 #### notation
 `-W<something>`
@@ -28,7 +26,6 @@ Affects build logs. Makes it easier to catch issues while building. I recommend 
 *****
 
 ### checks for std string functions
-#### why
 Adds additional checks for functions like `memcpy`, `memset`, `strncpy` ...
 #### notation
 `-D_FORTIFY_SOURCE=<mode>`
@@ -39,7 +36,6 @@ Adds additional checks for functions like `memcpy`, `memset`, `strncpy` ...
 *****
 
 ### sanitization
-#### why
 Finds even more problems gcc itself can't. Might require installing additional dependencies, slows down compilation. Really worth it, if you need your code to be safe. Might add additional runtime cost.
 #### notation
 `-fsanitize=<mode/subject>`

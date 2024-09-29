@@ -2,7 +2,6 @@
 ## flags to use for higher performance
 
 ### binary optimization
-#### why
 Optimizes size and execution time of your binary.
 #### notation
 `-O<level>`
@@ -15,7 +14,6 @@ Optimizes size and execution time of your binary.
 *****
 
 ### pipes
-#### why
 Makes compilation faster by using pipes instead of files.
 #### notation
 `-pipe`
@@ -23,7 +21,6 @@ Makes compilation faster by using pipes instead of files.
 *****
 
 ### architecture extensions
-#### why
 Makes code use extensions like AVX to make code faster. Might make binary unusable by other cpus.
 #### notation
 `-march=<cpu-type>`
@@ -34,7 +31,6 @@ Makes code use extensions like AVX to make code faster. Might make binary unusab
 *****
 
 ### linking optimization
-#### why
 Helps with "dead code" reduction and linking in general.
 - #### notation
 `-flto` Has to be specified in all compilation steps.
@@ -42,7 +38,6 @@ Helps with "dead code" reduction and linking in general.
 *****
 
 ### unrolling loops
-#### why
 Possibly reduces execution time by decreasing need for program to jump that much in short loops. Might increase binary size.
 #### notation
 `-funroll-loops` This allows copiler to unroll, if it feels like it will help with time. It doesn't force it!
