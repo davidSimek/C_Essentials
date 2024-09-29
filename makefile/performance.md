@@ -12,11 +12,15 @@ Optimizes size and execution time of your binary.
 `-Oz` optimizes for small size of binary, even for cost of execution time
 `-Og` optimzes in a way, that still lets you comfortably debug
 
+*****
+
 ### pipes
 #### why
 Makes compilation faster by using pipes instead of files.
 #### notation
 `-pipe`
+
+*****
 
 ### architecture extensions
 #### why
@@ -27,14 +31,21 @@ Makes code use extensions like AVX to make code faster. Might make binary unusab
 `-march=native` Uses extension supported by local cpu.
 `-march=<specific architecture>` This has very specific usecases and you probably don't need to care about this at all.
 
+*****
+
 ### linking optimization
 #### why
 Helps with "dead code" reduction and linking in general.
 #### notation
 `-flto` Has to be specified in all compilation steps.
 
+*****
+
 ### unrolling loops
 #### why
 Possibly reduces execution time by decreasing need for program to jump that much in short loops. Might increase binary size.
 #### notation
 `-funroll-loops` This allows copiler to unroll, if it feels like it will help with time. It doesn't force it!
+
+*****
+

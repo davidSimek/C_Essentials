@@ -12,6 +12,8 @@ Allows you to debug executable binary. Most usefull for debugging software like 
 `-g`  default debug info
 `-g3` maximal debug info
 
+*****
+
 ### warning flags
 #### why
 Affects build logs. Makes it easier to catch issues while building. I recommend using these on every single debug build.
@@ -23,6 +25,8 @@ Affects build logs. Makes it easier to catch issues while building. I recommend 
 `-Wall` enables all warnings (those which are disabled on default)
 `-Wextra` enables extra warnings
 
+*****
+
 ### checks for std string functions
 #### why
 Adds additional checks for functions like `memcpy`, `memset`, `strncpy` ...
@@ -32,6 +36,8 @@ Adds additional checks for functions like `memcpy`, `memset`, `strncpy` ...
 `-D_FORTIFY_SOURCE=1` allow compile time checks
 `-D_FORTIFY_SOURCE=2` allow compile and runtime checks
 
+*****
+
 ### sanitization
 #### why
 Finds even more problems gcc itself can't. Might require installing additional dependencies, slows down compilation. Really worth it, if you need your code to be safe. Might add additional runtime cost.
@@ -40,3 +46,6 @@ Finds even more problems gcc itself can't. Might require installing additional d
 #### example
 `-fsanitize=address` detects memory errors
 `-fsanitize=undefined` catches undefined behaviour
+
+*****
+
