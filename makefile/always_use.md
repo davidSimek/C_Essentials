@@ -1,11 +1,11 @@
 # Always use
-## flags to use on every build
+flags to use on every build
 
-### c version
+## c version
 Forces you to follow standard, which might result in more stable release. It is easier to confirm platform support.
-#### notation
+### notation
 `-std=<version>` or `-ansi`
-#### example
+### example
 - `-ansi`
 - `-std=c99`
 - `-std=gnu17`
