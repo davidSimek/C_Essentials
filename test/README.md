@@ -6,7 +6,7 @@ Logs have 2 types. `OK`, `ERROR`
 ```c
 typedef enum {
     OK,
-	ERROR,
+    ERROR,
 } log_type;
 ```
 
@@ -40,6 +40,9 @@ Macros resolve into conditions, that log into STDOUT based on result
 ## Example
 ```c
 int main(void) {
+    CESS_EQUALS(100, 200); // fails
+    CESS_EQUALS('a', 'a'); // passes
     
+    CESS_TEST_RESULTS("comparisons")
 }
 ```
