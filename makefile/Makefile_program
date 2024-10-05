@@ -46,11 +46,11 @@ DEBUG_FLAGS   = -g
 TEST_FLAGS    =
 
 ifeq      ($(B),R) # release build
-	EXCLUDE_FILE = $(SRC_DIR)/test.c
+	EXCLUDE_FILE = $(SRC_DIR)/main_test.c
 	CFLAGS      += $(RELEASE_FLAGS)
 	TARGET       = $(PROGRAM_NAME)$(TARGET_EXT)
 else ifeq ($(B),D) # debug build
-	EXCLUDE_FILE = $(SRC_DIR)/test.c
+	EXCLUDE_FILE = $(SRC_DIR)/main_test.c
 	CFLAGS      += $(DEBUG_FLAGS)
 	TARGET       = $(PROGRAM_NAME)$(TARGET_EXT)
 else ifeq ($(B),T) # test build

@@ -29,14 +29,10 @@ To build, you can supply 2 arguments
 You can see examples and usecase in Makefile itself.
 If it doesn't build, but should, I recomment using `-B` flag for make.
 
-### Library template
-!!! in progress
-
 ## Flag Guides
 
 This module also includes three guides that provide useful information about various compiler flags:
 
 - **always_use.md**: for every build
 - **bug_catcher.md**: debugging
-- **performance.md**: optimization
-- **security.md**: exec format, stack protection ...
+- **performance.md**: optimizations

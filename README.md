@@ -11,11 +11,10 @@ C is a powerful language, but sometimes we wonder why some basic utilities aren'
 - [ ] Arena allocator
 - [ ] Page allocator
 
-### Makefile Templates
-- [ ] Linux-specific
-- [ ] Windows-specific
-- [ ] Cross-platform
-- [ ] Testing support
+### Makefile Templates (Windows/Linux release/debug/test)
+- [ ] program
+- [ ] shared library
+- [ ] statically linked library
 
 ### Dynamic Arrays Encapsulation
 - [ ] Create dynamic arrays by passing a specific array implementation, making array management straightforward.
@@ -26,13 +25,14 @@ C is a powerful language, but sometimes we wonder why some basic utilities aren'
 - [ ] Dynamic array with custom increment
 
 ### Data Structures Nobody Wants to Implement
-- [ ] Hashtable
-- [ ] Tree
+- [ ] Hashtable (void*)
+- [ ] Tree (int, char, void*, ...)
+- [ ] binary Tree (int, char, void*, ...)
+- [ ] ...
 
 ### Most Useful Macros
 - [ ] FOREVER
 - [ ] CLIP
-- [ ] MIN
 
 ### Testing "framework"
 ???
